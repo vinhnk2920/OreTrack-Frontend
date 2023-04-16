@@ -63,7 +63,7 @@ https://www.figma.com/proto/8wrDkJQybAamp815NAcdld/OreTrack?node-id=7-2926&scali
 
 ### Rescue team information
 
-<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Coordinate_screen.png"  width="700">
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Rescue_team_info_screen.png"  width="700">
 
 ### Rescue list screen
 
