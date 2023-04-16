@@ -37,47 +37,41 @@ https://www.figma.com/proto/8wrDkJQybAamp815NAcdld/OreTrack?node-id=7-2926&scali
 
 ## List screen
 
-![]()
-
 ### Login screen
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Login_screen.png"  width="700">
 
 ### Overview screen
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Overview_screen.png"  width="700">
 
 ### Message composing screen
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/message_composing_screen.png"  width="700">
 
 ### Disaster detail screen
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/message_composing_screen.png"  width="700">
 
 ### Statistic rescue screen
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Statistic_rescue_screen.png"  width="700">
 
 ### Coordinate screen
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Coordinate_screen.png"  width="700">
 
 ### Rescue team information
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Coordinate_screen.png"  width="700">
 
 ### Rescue list screen
 
-![]()
-
-### List support demand screen
-
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/Rescue_list_screen.png"  width="700">
 
 ### User management screen
 
-![]()
+<img src="https://github.com/vinhnk2920/OreTrack-Frontend/blob/main/oretrack-fe/src/assets/User_management_screen.png"  width="700">
 
 
 ## Project Setup
