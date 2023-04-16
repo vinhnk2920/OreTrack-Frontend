@@ -17,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
   <div>
       <div class="main-screen">
-          <img id="map" src="@/assets/Vietnam_x16.gif" alt="map">
+          <img id="map" src="https://os.viettelcloud.vn/oretrack/Vietnam_x16.gif" alt="map">
       </div>
   </div>
 </template>
