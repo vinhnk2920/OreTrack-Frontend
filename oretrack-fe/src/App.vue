@@ -5,30 +5,45 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <div>
+          <RouterLink to="/" style="display: flex">
+              <img alt="Vue logo" class="logo" src="@/assets/AvaCloud.png" />
+              <b class="logo-text">ORETRACK</b>
+          </RouterLink>
+      </div>
+      <div>
+        <RouterLink to="/login"><button style="margin-right: 1rem;">Login</button></RouterLink>
     </div>
   </header>
-
-  <RouterView />
+  <div>
+      <div class="main-screen">
+          <img id="map" src="@/assets/Vietnam_x16.gif" alt="map">
+      </div>
+  </div>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
+    background: #0081C9;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 2rem 2rem;
+    padding: 0.5rem;
+  width: 5rem;
+    border-radius:50%;
+}
+
+.logo-text {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 0.5rem;
 }
 
 nav {
@@ -56,15 +71,35 @@ nav a:first-of-type {
   border: 0;
 }
 
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+
 @media (min-width: 1024px) {
   header {
+      width: 100%;
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    /*padding-right: calc(var(--section-gap) / 2);*/
+  }
+
+  #map {
+      width: 100%;
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+      margin: 0 0 0 0.5rem;
+      width: 3rem;
   }
 
   header .wrapper {
